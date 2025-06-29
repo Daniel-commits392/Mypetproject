@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Adoption app 🐾</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> 🐶 DOG ADOPTION CENTER  🐶</h1>
+    <p>Hello there.Do you happen to have a need of man's best friend? 🐕 🐾</p>
+    <p>If so you can search for them here. Just input the type of breed your interested in and search for your favourite 🐾🐾</p>
+
+ <div id="dog-list">
+      <label for="dog-breed">Dog breed</label>
+      <input type="text" id="dog-breed" placeholder="name your breed">
+      <ul id="doglist"></ul>
+      <p id="search-error"></p>
+      <button id="search-button">Search</button>
+
+      <label for="breed-select">Select Breed</label>
+<select id="breed-select">
+  <option value="">--Choose a breed--</option>
+</select>
+
+
+</div>
+
+<div id="submission">
+    <h2>Adoption Form</h2>
+    
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="enter your name">
+    
+    <label for="age">Age</label>
+    <input type="number" id="age" placeholder="enter your age">
+    
+    <label for="town">Town</label>
+    <input type="text" id="town" placeholder="enter your residence area">
+  
+    <label for="dog-image">Image URL</label>
+    <input type="text" id="dog-image" placeholder="enter image URL">
+    
+    <button id="submit">submit 🐾</button>
+    <button id="clear">clear</button>
+
+    <p id="form-success"></p>
+</div>
+
+<footer>
+    <p> 2025  ❤️Dog Adoption ❤️ <br> Built for 🐕🐕 by <br> Daniel Kariuki 🐾</p>
+<p>Once you adopt one be sure to give them a happy home 🏡</p>
+</footer>
+
+
+ <script src="index.js"></script>
+</body>
+</html>

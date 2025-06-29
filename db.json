@@ -1,0 +1,26 @@
+{
+  "breeds": [
+    { "id": 2, "name": "Beagle" },
+    { "id": 5, "name": "Bulldog" }
+  ],
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Charlie",
+      "breedId": 2,
+      "age": 4,
+      "town": "Kisumu",
+      "image": "https://images.dog.ceo/breeds/beagle/n02088364_11136.jpg"
+    }
+    ,
+    {
+      "id": 2,
+      "name": "Rocky",
+      "breedId": 5,
+      "age": 5,
+      "town": "Nakuru",
+      "image": "https://images.dog.ceo/breeds/bulldog-english/jager-2.jpg"
+    }
+  ]
+}
+

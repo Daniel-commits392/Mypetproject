@@ -1,0 +1,97 @@
+body {
+  background-color:black;
+  color: orangered;
+  padding: 30px;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: orangered;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #03386e;
+  margin-bottom: 10px;
+}
+
+
+
+#dog-list,
+#submission {
+  max-width: 600px;
+  margin: 39px auto;
+  padding: 20px;
+  background-color: #0ddbca;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: red;
+}
+
+#doglist {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#doglist li {
+  margin-bottom: 20px;
+  background-color: #29a503;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#doglist img {
+  width: 100%;          
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #ddd; 
+}
+
+
+#form-success {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
