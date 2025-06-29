@@ -22,4 +22,6 @@ This is done by the use of HTML, CSS, and JavaScript, and powered by a JSON serv
 # 🧑🏾‍🦱 Author
 This was written by Daniel Kariuki 
 https://dev.to/shadow_14d29c92635eef8efd/building-a-dog-app-a-beginners-journey-into-javascript-and-real-apis-2dhj   ⭐(my blog) ⭐
+
+😃 HAPPY CODING  🖥️ 
  
